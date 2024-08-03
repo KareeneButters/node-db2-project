@@ -19,6 +19,6 @@ exports.up = function (knex) {
 
 exports.down = function (knex) {
   // DO YOUR MAGIC
-  haaaa fooo check
+ return knew.schema.dropTableIfExists('cars')
 };
 
